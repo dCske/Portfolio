@@ -37,14 +37,14 @@ header h1 {
 
 header p {
     font-style: italic;
-    color: #bbb;
+    color: black;
 }
 
 /* Profile section */
 #profile {
     background: url('background.jpg') no-repeat center center;
     background-size: cover;
-    color: white;
+    color: black;
     padding: 40px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     border-radius: 30px;
