@@ -42,7 +42,7 @@ header p {
 
 /* Profile section */
 #profile {
-    background: url('background.jpg') no-repeat center center;
+    background: url('') no-repeat center center;
     background-size: cover;
     color: black;
     padding: 40px;
@@ -112,12 +112,13 @@ footer {
 }
 #info ul,
 #skills ul,
+#projects ul,
 #hobbies ul {
     text-align: center;
     padding-left: 0;
     list-style-position: inside;
 }
-
+#projects li,
 #info li,
 #skills li,
 #hobbies li {
@@ -181,4 +182,31 @@ nav {
 /* Optional: Smooth scroll effect */
 html {
     scroll-behavior: smooth;
+}
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 25px;
+}
+
+.skill-level {
+    background-color: #4CAF50;
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    border-radius: 20px 0 0 20px;
+    font-weight: bold;
 }
