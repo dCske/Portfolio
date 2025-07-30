@@ -2,98 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hansen's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter To You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Hansen Ken B. Dionaldo</h1>
-        <p>Web Enthusiast | Learner | Reader</p>
-        
-        <nav>
-            <ul class="navbar">
-                <li><a href="#info">Info</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#hobbies">Hobbies & Interests</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-gray-100">
 
-    <section id="profile">
-        <img src="pic1.jpg" alt="My Photo">
-        <h2>About Me</h2>
-        <p>
-            I'm a 20-year-old aspiring web developer based in Mandaue City, Philippines. I’m passionate about exploring the world of technology—especially how websites and systems are built behind the scenes. 
-            Whether it’s designing a user-friendly layout or learning how databases work, I enjoy diving deep into the process.
+    <div class="header">
+        <h1 class="text-4xl font-bold">A Letter to You</h1>
+    </div>
+
+    <div class="section">
+        <h2 class="text-2xl font-semibold mb-4" style="outline: rgb(0, 0, 0) dotted 3px; outline-offset: 1px;">Babiiii,</h2>
+        <p class="text-gray-700 mb-4">
+        Even though we’re not perfect together, I’m so grateful for you. We’ve had our ups and downs, but every moment with you means more than words can say. </p>
+        <p class="text-gray-700 mb-4">
+        I may not always get it right, and I’m truly sorry for the things I said and for hurting you </p> 
+        <p class="text-gray-700 mb-4">
+        Thank you for sticking by me through it all. You’re my everything, imperfections and all.
         </p>
-        <p>
-            In my free time, I read webtoons, watch anime, and constantly look for new things to learn. I believe that consistent growth—even in small steps—makes a big difference. 
-            I also value creativity, curiosity, and staying grounded through it all. My goal is to improve both my technical skills and my mindset as I work toward a career in tech.
+        <p class="text-gray-700 mb-4">
+        With love,
         </p>
-    </section>
+        <p class="text-gray-700 font-bold">Hansigned</p>
+    </div>
 
-    <section id="info">
-        <h2>Info</h2>
-        <ul>
-            <li><b>Status:</b> Signal</li>
-            <li><b>Address:</b> Maguikay, Mandaue City, Cebu, Philippines</li>
-        </ul>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skill">
-            <label>PHP</label>
-            <div class="skill-bar"><div class="skill-level" style="width: 50%;">50%</div></div>
+    <div class="section">
+        <h2 class="text-2xl font-semibold mb-4 text-center">Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="memory-item">
+                <img src="1.jpg" alt="Memory 1">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="2.jpg" alt="Memory 2">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="3.jpg" alt="Memory 3">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="4.jpg" alt="Memory 4">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="5.jpg" alt="Memory 5">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img class="large-image" src="6.jpg" alt="Memory 6">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="7.jpg" alt="Memory 7">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="8.jpg" alt="Memory 8">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img class="large-image" src="9.jpg" alt="Memory 9">
+                <div class="memory-content"></div>
+            </div>
+            <div class="memory-item">
+                <img src="10.jpg" alt="Memory 10">
+                <div class="memory-content"></div>
+            </div>
         </div>
-        <div class="skill">
-            <label>CSS</label>
-            <div class="skill-bar"><div class="skill-level" style="width: 80%;">80%</div></div>
-        </div>
-        <div class="skill">
-            <label>MySQL</label>
-            <div class="skill-bar"><div class="skill-level" style="width: 65%;">65%</div></div>
-        </div>
-        <div class="skill">
-            <label>JavaScript</label>
-            <div class="skill-bar"><div class="skill-level" style="width: 60%;">60%</div></div>
-        </div>
-        <div class="skill">
-            <label>Basic Photo Editing</label>
-            <div class="skill-bar"><div class="skill-level" style="width: 75%;">75%</div></div>
-        </div>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><b>hSN Eats</b> – A food ordering dashboard system using CodeIgniter 3 and MySQL.</li>
-            <li><b>Personal Portfolio</b> – Responsive HTML/CSS website showcasing my bio and projects.</li>
-            <li><b>Login System</b> – Simple user authentication system using PHP and MySQL.</li>
-        </ul>
-    </section>
-
-    <section id="hobbies">
-        <h2>Hobbies & Interests</h2>
-        <ul>
-            <li>Reading Webtoons</li>
-            <li>Watching Anime</li>
-            <li>Learning Backend Development</li>
-            <li>Listening to Music</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Phone: 0949 973 6232</p>
-        <p>Email: realhansenken@gmail.com</p>
-        <p>Facebook: <a href="https://www.facebook.com/hansenken.dionaldo" target="_blank">facebook.com/hansenken.dionaldo</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Hansen Ken B. Dionaldo. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
